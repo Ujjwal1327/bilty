@@ -1,0 +1,157 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.left {
+    width: 50%;
+    height: 100vh;
+    padding: 10rem;
+
+}
+
+.left p:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    font-size: var(--fs-pm);
+    cursor: pointer;
+    margin-bottom: 4rem;
+}
+
+.left h2 {
+    font-size: var(--fs-hm);
+    color: var(--text-blue);
+}
+
+.left p:nth-child(3) {
+    font-size: var(--fs-pl);
+    margin-bottom: 2rem;
+}
+
+.left form {
+    width: 100%;
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.left form .email {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.left form .email label {
+    font-size: var(--fs-ps);
+}
+
+.left form .email div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #E1E1E1;
+    border-radius: 0.3rem;
+    padding: 0rem 1rem;
+}
+
+.left form .email div input {
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    font-size: var(--fs-ps);
+}
+
+.left form .email .icon {
+    font-size: var(--fs-pm);
+    color: var(--text-blue);
+
+    cursor: pointer;
+}
+
+/* .left form .email input {
+    background: #E1E1E1;
+    border-radius: .3rem;
+    width: 100%;
+    font-size: var(--fs-ps);
+    outline: none;
+    font-weight: 600;
+    color: #2C2C2C;
+    padding: 1rem;
+} */
+
+.left form .password {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 5rem;
+}
+
+.left form .password div:nth-child(1) {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left form .password div:nth-child(1) label {
+    font-size: var(--fs-ps);
+}
+
+.left form .password div:nth-child(1) span {
+    color: #F78720;
+    cursor: pointer;
+}
+
+.left form .password div:nth-child(2) {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #E1E1E1;
+    border-radius: 0.3rem;
+    padding: 0rem 1rem;
+}
+
+.left form .password div:nth-child(2) input {
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    font-size: var(--fs-ps);
+}
+
+.left form .password div:nth-child(2) .icon {
+    font-size: var(--fs-pm);
+    color: var(--text-blue);
+
+    cursor: pointer;
+}
+.left form button {
+ background-color: var(--text-blue);
+ border-radius: 0.5rem;
+ color: white;
+ font-size: var(--fs-pm);
+ cursor: pointer;
+ outline: none;
+ border: none;
+}
+
+
+.right {
+    width: 50%;
+    height: 100vh;
+    background-color: #E4EFFF;
+}
+.right img{
+scale: 0.6;
+}

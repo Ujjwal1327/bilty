@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  /* font size  */
+  --fs-base: 1rem;
+  --fs-hl: 5rem;
+  --fs-hm: 4rem;
+  --fs-hs: 3rem;
+  --fs-pl: 2.5rem;
+  --fs-pm: 2rem;
+  --fs-ps: 1.5rem;
+
+
+  /* color  */
+  --text-blue: #4280EF;
+}
+
+
+/* Root box-sizing and font scaling */
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+  /* 1rem = 10px */
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  scroll-behavior: smooth;
+  text-size-adjust: 100%;
+  line-height: 1.5;
+  color: #333;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body default inheritance */
+body {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/* Headings and block elements spacing */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+pre {
+  margin-bottom: .2rem;
+}
+
+/* Reset lists */
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Remove default anchor styling */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Table styling */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 0.8rem;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+/* Form inputs */
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: 0.8rem;
+  margin: 0.4rem 0;
+  line-height: 1.5;
+}
+
+/* Image default */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* HTML5 element display defaults */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
