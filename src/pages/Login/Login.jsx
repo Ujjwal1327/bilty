@@ -2,6 +2,7 @@ import styles from './Login.module.css'
 import { IoChevronBack } from "react-icons/io5";
 import { FaEye } from "react-icons/fa";
 import { FcCheckmark } from "react-icons/fc";
+import loginImage from '../../assets/image/loginImage.svg';
 
 
 const Login = () => {
@@ -33,7 +34,7 @@ const Login = () => {
         </form>
       </div>
       <div className={styles.right}>
-      <img src="../../../public/loginImage.svg" alt=""/>
+        <img src={loginImage} alt="" />
       </div>
     </div>
   )
